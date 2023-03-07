@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Memberships </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="header__in">
+        <div class="header__decor borderEl"></div><a class="header__logo" href="#">
+          <picture class="header__logo_in">
+            <source srcset="images/header_logo.png" type="image/png"><img class="header__logo_img" src="images/header_logo.png" alt="">
+          </picture>
+          <picture class="header__logo_in header__logo_in--hidden_mod">
+            <source srcset="images/header_logo_black.png" type="image/png"><img class="header__logo_img" src="images/header_logo_black.png" alt="">
+          </picture></a>
+        <div class="header__side">
+          <div class="header_contact">
+            <ul class="header_contact__list">
+              <li class="header_contact__list_item"><a class="header_contact__phone" href="tel:+6498867472"><span class="header_contact__phone_icon">
+                    <svg class="icon icon_phone_icon icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#phone_icon"></use>
+                    </svg></span><span class="header_contact__phone_number">+64 9 886 7472</span></a></li>
+              <li class="header_contact__list_item"><a class="header_contact__button popupBtn">contact</a></li>
+            </ul>
+          </div>
+          <div class="header_menu"><span class="header_menu__title" data-title="Menu" data-close-title="Close">Menu</span>
+            <div class="header_menu__trigger menuTrigger"><span class="header_menu__trigger_decor"></span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main_menu">
+      <div class="main_menu__scroll_area">
+        <div class="main_menu__in">
+          <div class="main_menu__col">
+            <nav class="menu_nav">
+              <ul class="menu_nav__list">
+                <li class="menu_nav__list_item menu_nav__list_item--has_submenu">
+                  <div class="menu_link">Workspaces</div>
+                  <ul class="menu_nav__sublist">
+                    <li class="menu_nav__subitem"><a class="menu_nav__sublink" href="#">1 Albert Street</a></li>
+                    <li class="menu_nav__subitem"><a class="menu_nav__sublink" href="#">The Formery</a></li>
+                    <li class="menu_nav__subitem"><a class="menu_nav__sublink" href="#">110 Custom Street West</a></li>
+                  </ul>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Membership</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Shop</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Eat & Drink</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Our spaces & private events</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">About</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Events</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">News</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main_menu__col">
+            <ul class="menu_btn_list">
+              <li class="menu_btn_list__item"><a class="menu_button" href="#">members login</a></li>
+            </ul>
+            <div class="menu_contact">
+              <div class="menu_contact__social">
+                <ul class="social_list social_list--header_mod">
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_facebook icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                      </svg></a></li>
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_instagram icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#instagram"></use>
+                      </svg></a></li>
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_linkedin icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#linkedin"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+              <picture class="menu_contact__logo">
+                <source srcset="images/menu_logo.png" type="image/png"><img class="menu_contact__logo_img" src="images/menu_logo.png" alt="">
+              </picture>
+              <ul class="menu_contact__list">
+                <li class="menu_contact__list_item"><a class="contact_link" href="mailto:info@alberts.nz">info@alberts.nz</a></li>
+                <li class="menu_contact__list_item"><span class="contact_link contact_link--text_mod">1 Albert Street — Auckland, New Zealand</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="base">
+        <section class="hero_section hero_section--shape_decor hero_section--bottom_content_mod">
+          <picture class="hero_section__bg">
+            <source media="(min-width: 1024px)" srcset="images/hero/membership_new.jpg" type="image/jpg">
+            <source media="(max-width: 1023px)" srcset="images/hero/membership.jpg" type="image/jpg"><img class="hero_section__bg_img" src="images/hero/membership_new.jpg" alt="">
+          </picture>
+          <div class="hero_section__in hero_section__in--alt_height">
+            <div class="hero_section__breadcrumbs">
+              <ul class="hero_section__breadcrumbs_list">
+                <li class="hero_section__breadcrumbs_item"><a class="hero_section__breadcrumbs_link" href="#">home</a>
+                </li>
+                <li class="hero_section__breadcrumbs_item"><span class="hero_section__breadcrumbs_link hero_section__breadcrumbs_link--weight_mod">membership</span>
+                </li>
+              </ul>
+            </div>
+            <picture class="hero_section__logo fadeEl">
+              <source srcset="images/hero/alberts_club.png" type="image/png"><img class="hero_section__logo_img" src="images/hero/alberts_club.png" alt="">
+            </picture>
+            <div class="hero_section__bottom">
+              <div class="hero_section__bottom_decor borderEl"></div>
+              <div class="hero_section__bottom_text">membership</div>
+            </div>
+          </div>
+        </section>
+        <section class="text_section">
+          <div class="section__in">
+            <div class="text_section__w">
+              <h2 class="text_section__title fadeEl">Welcome to our Membership Overview</h2>
+              <div class="text_section__descrip_w fadeEl">
+                <div class="text_section__descrip">
+                  <p>Alongside its revolutionary office leasing model, Alberts offers a private members’ work club. Globally connected, its membership is made up of SMEs, culturemakers and innovators who are shaping the future of New Zealand and beyond.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section benefits_v2">
+          <div class="section__in">
+            <h2 class="benefits_v2__title">benefits
+              <div class="line_decor line_decor--v1_mod borderEl"></div>
+              <div class="line_decor line_decor--v2_mod borderEl"></div>
+            </h2>
+            <div class="benefits_v2__text">Our member benefits have been designed to foster an unparalleled environment of inspiration, connection and success, for both businesses and individuals.</div>
+            <div class="benefits_v2__wrap">
+              <ul class="benefits_v2__list">
+                <li class="benefits_v2_item fadeEl">
+                  <div class="benefits_v2_item__inner">
+                    <div class="benefits_v2_item__content">
+                      <h3 class="benefits_v2_item__title">workspaces</h3>
+                      <div class="benefits_v2_item__text"> Where big ideas become real. Work from the beautiful, design-led environments of The Commons & The Library at No. 1 Albert Street. (More spaces to come)</div>
+                    </div>
+                    <picture class="benefits_v2_item__img">
+                      <source srcset="images/benefits/benefits_1.jpg" type="image/jpg"><img class="benefits_v2_item__img_in" src="images/benefits/benefits_1.jpg" alt="benefits_1">
+                    </picture>
+                  </div>
+                </li>
+                <li class="benefits_v2_item fadeEl">
+                  <div class="benefits_v2_item__inner">
+                    <div class="benefits_v2_item__content">
+                      <h3 class="benefits_v2_item__title">meeting <br>spaces</h3>
+                      <div class="benefits_v2_item__text">A variety of tech-advanced and easily bookable private rooms are available for your next meeting of minds. All members receive a 40% discount when booking.</div>
+                    </div>
+                    <picture class="benefits_v2_item__img">
+                      <source srcset="images/benefits/benefits_2.jpg" type="image/jpg"><img class="benefits_v2_item__img_in" src="images/benefits/benefits_2.jpg" alt="benefits_2">
+                    </picture>
+                  </div>
+                </li>
+                <li class="benefits_v2_item fadeEl">
+                  <div class="benefits_v2_item__inner">
+                    <div class="benefits_v2_item__content">
+                      <h3 class="benefits_v2_item__title">concierge</h3>
+                      <div class="benefits_v2_item__text">Our highly skilled team offer an unparalleled service, managing everything from mail and bookings to drycleaning and click & collect, and all that’s in between.</div>
+                    </div>
+                    <picture class="benefits_v2_item__img">
+                      <source srcset="images/benefits/benefits_3.jpg" type="image/jpg"><img class="benefits_v2_item__img_in" src="images/benefits/benefits_3.jpg" alt="benefits_3">
+                    </picture>
+                  </div>
+                </li>
+                <li class="benefits_v2_item fadeEl">
+                  <div class="benefits_v2_item__inner">
+                    <div class="benefits_v2_item__content">
+                      <h3 class="benefits_v2_item__title">global alliances</h3>
+                      <div class="benefits_v2_item__text">Enjoy the highest quality members clubs across the globe as if you were their very own member thanks to our alliance network, Sonato.</div>
+                    </div>
+                    <picture class="benefits_v2_item__img">
+                      <source srcset="images/benefits/benefits_4.jpg" type="image/jpg"><img class="benefits_v2_item__img_in" src="images/benefits/benefits_4.jpg" alt="benefits_4">
+                    </picture>
+                  </div>
+                </li>
+                <li class="benefits_v2_item fadeEl">
+                  <div class="benefits_v2_item__inner">
+                    <div class="benefits_v2_item__content">
+                      <h3 class="benefits_v2_item__title">Partner perks</h3>
+                      <div class="benefits_v2_item__text">Rest easy at the best hotels in town and receive a special rate reserved for our members.</div>
+                    </div>
+                    <picture class="benefits_v2_item__img">
+                      <source srcset="images/benefits/benefits_5.jpg" type="image/jpg"><img class="benefits_v2_item__img_in" src="images/benefits/benefits_5.jpg" alt="benefits_5">
+                    </picture>
+                  </div>
+                </li>
+                <li class="benefits_v2_item fadeEl">
+                  <div class="benefits_v2_item__inner">
+                    <div class="benefits_v2_item__content">
+                      <h3 class="benefits_v2_item__title">hotel partners</h3>
+                      <div class="benefits_v2_item__text">Enjoy the highest quality members clubs across the globe as if you were their very own member thanks to our alliance network, Sonato.</div>
+                    </div>
+                    <picture class="benefits_v2_item__img">
+                      <source srcset="images/benefits/benefits_6.jpg" type="image/jpg"><img class="benefits_v2_item__img_in" src="images/benefits/benefits_6.jpg" alt="benefits_6">
+                    </picture>
+                  </div>
+                </li>
+                <li class="benefits_v2_item fadeEl">
+                  <div class="benefits_v2_item__inner">
+                    <div class="benefits_v2_item__content">
+                      <h3 class="benefits_v2_item__title">community</h3>
+                      <div class="benefits_v2_item__text">Dynamic, smart and successful businesses and creative minds have built us a membership like no other. The nature of Alberts Club inspires collaboration, which we further foster through events and networking opportunities.</div>
+                    </div>
+                    <picture class="benefits_v2_item__img">
+                      <source srcset="images/benefits/benefits_7.jpg" type="image/jpg"><img class="benefits_v2_item__img_in" src="images/benefits/benefits_7.jpg" alt="benefits_7">
+                    </picture>
+                  </div>
+                </li>
+                <li class="benefits_v2_item fadeEl">
+                  <div class="benefits_v2_item__inner">
+                    <div class="benefits_v2_item__content">
+                      <h3 class="benefits_v2_item__title">events</h3>
+                      <div class="benefits_v2_item__text">Receive special rates from our curated list of partners, including gyms, florists hairstylists and more.</div>
+                    </div>
+                    <picture class="benefits_v2_item__img">
+                      <source srcset="images/benefits/benefits_8.jpg" type="image/jpg"><img class="benefits_v2_item__img_in" src="images/benefits/benefits_8.jpg" alt="benefits_8">
+                    </picture>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="benefits_v2_link">
+              <div class="benefits_v2_link__in"><a class="benefits_v2_link__btn" href="#">receive our full Alberts Membership Overview</a></div>
+              <div class="benefits_v2_link__in"><a class="benefits_v2_link__btn" href="#">learn about hosting events with us</a></div>
+            </div>
+          </div>
+        </section>
+        <section class="section membership">
+          <div class="section__in">
+            <h2 class="workspace__title">membership packages
+              <div class="line_decor line_decor--v1_mod borderEl"></div>
+              <div class="line_decor line_decor--v2_mod borderEl"></div>
+            </h2>
+            <div class="membership__wrap">
+              <div class="membership__row">
+                <div class="membership__col fadeEl">
+                  <div class="membership_item">
+                    <picture class="membership_item__image">
+                      <source srcset="images/membership/membership_1.jpg" type="image/jpg"><img class="membership_item__image_in" src="images/membership/membership_1.jpg" alt="">
+                    </picture>
+                    <div class="membership_item__content">
+                      <div class="membership_item__content_head">
+                        <h3 class="membership_item__title">house</h3>
+                        <div class="membership_item__descrip">
+                          <p>This is our premium membership option, which includes unlimited access to Alberts Club and all perks, benefits and global affiliations.</p>
+                          <p>This one-off annual fee covers membership for a full-year, offering the lowest per-day cost and greatest value. </p>
+                        </div>
+                      </div>
+                      <div class="membership_item__content_bottom">
+                        <div class="membership_item__fee">
+                          <div class="membership_item__fee_title">annually</div>
+                          <div class="membership_item__fee_price">$4000</div>
+                        </div><span class="membership_item__fee_descrip">$250 hospitality welcome gift included</span>
+                      </div>
+                    </div>
+                    <div class="membership_item__label_wrap">
+                      <div class="membership_item__label">
+                        <div class="membership_item__label_in"><span>Corporate group packages are available upon request</span></div>
+                      </div>
+                      <div class="membership_item__label">
+                        <div class="membership_item__label_in"><span>Includes a $250 Hospitality Welcome Gift</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="membership__col fadeEl">
+                  <div class="membership_item">
+                    <picture class="membership_item__image">
+                      <source srcset="images/membership/membership_2.jpg" type="image/jpg"><img class="membership_item__image_in" src="images/membership/membership_2.jpg" alt="">
+                    </picture>
+                    <div class="membership_item__content">
+                      <div class="membership_item__content_head">
+                        <h3 class="membership_item__title">casual</h3>
+                        <div class="membership_item__descrip">
+                          <p>Offering access 8 (bronze), 12 (silver), or 20 (gold) days a month, these month-by-month memberships suit those who wish to use our facilities and services on a flexible basis.</p>
+                        </div>
+                      </div>
+                      <div class="membership_item__content_bottom">
+                        <div class="membership_item__fee">
+                          <div class="membership_item__fee_title">monthly</div>
+                        </div>
+                        <ul class="membership_item_fee__list">
+                          <li class="membership_item_fee_item">
+                            <div class="membership_item_fee_item__title"><strong>Gold</strong> – 20 days </div>
+                            <div class="membership_item_fee_item__price">$599</div>
+                          </li>
+                          <li class="membership_item_fee_item">
+                            <div class="membership_item_fee_item__title"><strong>Silver</strong> – 12 days </div>
+                            <div class="membership_item_fee_item__price">$399</div>
+                          </li>
+                          <li class="membership_item_fee_item">
+                            <div class="membership_item_fee_item__title"><strong>Bronze</strong> – 8 days </div>
+                            <div class="membership_item_fee_item__price">$349</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="membership_item__label_wrap">
+                      <div class="membership_item__label">
+                        <div class="membership_item__label_in"><span>Quarterly pricing is available upon request</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="membership__col fadeEl">
+                  <div class="membership_item">
+                    <picture class="membership_item__image">
+                      <source srcset="images/membership/membership_3.jpg" type="image/jpg"><img class="membership_item__image_in" src="images/membership/membership_3.jpg" alt="">
+                    </picture>
+                    <div class="membership_item__content">
+                      <div class="membership_item__content_head">
+                        <h3 class="membership_item__title">drop-in</h3>
+                        <div class="membership_item__descrip">
+                          <p>Perfect for the business traveller who needs a CBD base for the day, this option is a smarter alternative to working from the hotel room. </p>
+                        </div>
+                      </div>
+                      <div class="membership_item__content_bottom">
+                        <div class="membership_item__fee">
+                          <div class="membership_item__fee_title">daily</div>
+                          <div class="membership_item__fee_price">$49</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="membership__col fadeEl">
+                  <div class="membership_item">
+                    <picture class="membership_item__image">
+                      <source srcset="images/membership/membership_4.jpg" type="image/jpg"><img class="membership_item__image_in" src="images/membership/membership_4.jpg" alt="">
+                    </picture>
+                    <div class="membership_item__content">
+                      <div class="membership_item__content_head">
+                        <h3 class="membership_item__title">virtual</h3>
+                        <div class="membership_item__descrip">
+                          <p>The membership provides. reputable central Auckland business address and the management of all incoming and outgoing mail.</p>
+                        </div>
+                      </div>
+                      <div class="membership_item__content_bottom">
+                        <div class="membership_item__fee">
+                          <div class="membership_item__fee_title">annually</div>
+                          <div class="membership_item__fee_price">$1200</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section dicsover_more_section">
+          <div class="section__in">
+            <div class="dicsover_more_section__wrap">
+              <div class="dicsover_more_section__content fadeEl">
+                <h3 class="dicsover_more_section__title">discover more</h3>
+                <div class="dicsover_more_section__text">Join us for a one-on-one tour of No.1 Albert Street and learn more about our world-class work, community and hospitality spaces.</div>
+                <div class="user">
+                  <div class="user__wrap">
+                    <div class="user__img"><img src="images/user.jpg" alt="Cornelia Weston"></div>
+                    <div class="user_info">
+                      <div class="user_info__position">Director of Community</div>
+                      <div class="user_info__name">Cornelia Weston</div><a class="user_info__email" href="mailto:cornelia@alberts.nz">cornelia@alberts.nz</a><a class="user_info__phone" href="tel:+64272720939">+64 27 272 0939</a>
+                      <div class="user_info__adress">1 Albert Street, Auckland CBD</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dicsover_more_section_form fadeEl">
+                <form action="#" method="POST">
+                  <div class="dicsover_more_section_form__wrap">
+                    <div class="form_input">
+                      <label class="form_input__label">First Name*</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="text">
+                      </div>
+                    </div>
+                    <div class="form_input">
+                      <label class="form_input__label">Last Name*</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="text">
+                      </div>
+                    </div>
+                    <div class="form_input">
+                      <label class="form_input__label">Phone Number*</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="tel">
+                      </div>
+                    </div>
+                    <div class="form_input">
+                      <label class="form_input__label">Email Address*</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="email">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dicsover_more_section_form__textarea">
+                    <div class="form_textarea">
+                      <label class="form_textarea__label">Message*</label>
+                      <div class="form_textarea__field">
+                        <textarea class="form_textarea__element"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dicsover_more_section_form__btn_w">
+                    <input class="dicsover_more_section_form__btn" type="submit" value="Submit enquiry">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section welcome">
+          <div class="section__in">
+            <div class="brochure brochureEl">
+              <div class="brochure__col">
+                <picture class="brochure__img">
+                  <source srcset="images/brochure_2.jpg" type="image/jpg"><img class="brochure__img_in" src="images/brochure_2.jpg" alt="">
+                </picture>
+              </div>
+              <div class="brochure__col">
+                <div class="brochure__decor brochure__decor--v1_mod brochureDecor">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 80">
+                    <rect width="13.867" height="80" fill="#1b2124"></rect>
+                    <rect width="52" height="13.165" transform="translate(0 66.835)" fill="#1b2124"></rect>
+                  </svg>
+                </div>
+                <div class="brochure__decor brochure__decor--v2_mod brochureDecor">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 80">
+                    <rect width="13.867" height="80" fill="#1b2124"></rect>
+                    <rect width="52" height="13.165" transform="translate(0 66.835)" fill="#1b2124"></rect>
+                  </svg>
+                </div>
+                <div class="brochure__content brochureContent">
+                  <picture class="brochure__logo">
+                    <source srcset="images/brochure_logo.png" type="image/png"><img class="brochure__logo_img" src="images/brochure_logo.png" alt="">
+                  </picture>
+                  <div class="brochure__subtitle">membership</div>
+                  <div class="brochure__title">Albert Membership Brochure</div>
+                  <div class="brochure__btn"><a class="btn_base" href="#">download</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section__in">
+            <h2 class="workspace__title">Explore our spaces
+              <div class="line_decor line_decor--v1_mod borderEl"></div>
+              <div class="line_decor line_decor--v2_mod borderEl"></div>
+            </h2>
+            <div class="slider__wrap fadeEl">
+              <div class="main_slider">
+                <div class="main_slider__block">
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_7.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_7.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_2.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_2.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_3.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_3.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_4.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_4.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_5.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_5.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_6.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_6.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_1.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_1.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_2.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_2.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                </div>
+                <div class="main_slider__controls">
+                  <div class="main_slider__arrow prev_mod">
+                    <svg class="icon icon_left icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#left"></use>
+                    </svg>
+                  </div>
+                  <div class="main_slider__arrow next_mod">
+                    <svg class="icon icon_right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#right"></use>
+                    </svg>
+                  </div>
+                  <div class="main_slider__count"><span class="countCurrent"></span><span>&nbsp;/</span><span class="countTotal"></span></div>
+                  <div class="main_slider__fullscreen sliderFullscreen" data-fancybox-trigger="gallary_slider" data-fancybox-index="0" href="javascript:;"></div>
+                </div>
+              </div>
+              <div class="preview_slider">
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_7.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_7.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_2.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_2.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_3.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_3.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_4.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_4.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_5.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_5.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_6.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_6.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_1.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_1.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_2.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_2.jpg" alt="">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section__in">
+            <h2 class="testimonial__title">testimonials
+              <div class="line_decor line_decor--v1_mod borderEl"></div>
+              <div class="line_decor line_decor--v2_mod borderEl"></div>
+            </h2>
+            <div class="testimonial brochureEl">
+              <div class="testimonial__content brochureContent">
+                <picture class="testimonial__logo">
+                  <source srcset="images/brochure_logo.png" type="image/png"><img class="testimonial__logo_img" src="images/brochure_logo.png" alt="">
+                </picture>
+                <div class="testimonial__text">Eit, sed do eiusmod tempor incididu sed do eiu smod tempor nt ut labore.  Adipiscing elit, sed do eiusmod tempor incididu sed do eiu smod tempor nt ut labore. Do eiusmod tempor incididu sed do eiu smod tempor nt u,od tempoet dolore smod tempor magna aliqua.
+                  <div class="testimonial__decor testimonial__decor--v1_mod brochureDecor"></div>
+                  <div class="testimonial__decor testimonial__decor--v2_mod brochureDecor"></div>
+                </div>
+                <div class="testimonial__author">firstname, company</div>
+              </div>
+            </div>
+          </div>
+        </section>
+<div class="section bottom_block">
+  <div class="section__in">
+    <div class="bottom_block__logo fadeEl"><img class="bottom_block__logo__img" src="images/bottom_logo.png" alt="logo"></div>
+  </div>
+</div>
+      </div>
+      <footer class="footer">
+        <div class="footer__in"><a class="footer__logo" href="#"><img class="footer__logo__in" src="images/header_logo.png" alt="Logo"></a>
+          <div class="footer__contacts">
+            <div class="footer__contacts__list">
+              <div class="footer__contacts__item">
+                <div class="footer__contacts__link">1 Albert Street — Auckland, New Zealand</div>
+              </div>
+              <div class="footer__contacts__item"><a class="footer__contacts__link" href="mailto:info@alberts.nz">info@alberts.nz</a></div>
+              <div class="footer__contacts__item"><a class="footer__contacts__link" href="tel:6498867472">PH — +64 9 886 7472</a></div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__bottom__logo"><img class="footer__bottom__logo__in" src="images/footer_sublogo.png" alt="Logo"></div>
+            <div class="footer__bottom__socials">
+              <div class="footer__bottom__socials__tag">@wearealberts</div>
+              <div class="footer__bottom__socials__list">
+                <ul class="social_list social_list--footer_mod">
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_facebook icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                      </svg></a></li>
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_instagram icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#instagram"></use>
+                      </svg></a></li>
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_linkedin icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#linkedin"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__copy">
+            <div class="footer__copy__item">
+              <div class="footer__copy__link">© ALBERTS 2021</div>
+            </div>
+            <div class="footer__copy__item"><a class="footer__copy__link" href="#">TERMS + CONDITIONS</a></div>
+            <div class="footer__copy__item"><a class="footer__copy__link" href="#">PRIVACY POLICY</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="popup popupMember">
+      <div class="popup_in">
+        <div class="popup_close popupClose">close</div>
+        <h2 class="popup_title">MEMBERSHIP ENQUIRY
+          <div class="line_decor line_decor--v1_mod borderEl"></div>
+          <div class="line_decor line_decor--v2_mod borderEl"></div>
+        </h2>
+        <form class="popup_form">
+          <div class="popup_form__list">
+            <div class="popup_form__list_in">
+              <div class="form_input">
+                <label class="form_input__label">First name*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Last name* </label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Phone number*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="tel">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Email address*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="email">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Age*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <div class="form_input__label">Where do you live?*</div>
+                <div class="form_select">
+                  <div class="form_select__field">
+                    <select class="form_select__element" placeholder="Please select">
+                      <option value="placeholder" disabled="" selected="">Please select</option>
+                      <option value="item">item</option>
+                      <option value="value">value</option>
+                      <option value="hello">hello</option>
+                    </select><span class="form_select__field_decor"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Company name*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Industry*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Preferred social media</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Link to your profile</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_textarea">
+                <label class="form_textarea__label">What else should we know about you?</label>
+                <div class="form_textarea__field">
+                  <textarea class="form_textarea__element"></textarea>
+                </div>
+              </div>
+              <div class="form_input">
+                <div class="form_input__label">What else should we know about you?</div>
+                <div class="form_select">
+                  <div class="form_select__field">
+                    <select class="form_select__element" placeholder="Please select">
+                      <option value="placeholder" disabled="" selected="">Please select</option>
+                      <option value="item">item</option>
+                      <option value="value">value</option>
+                      <option value="hello">hello</option>
+                    </select><span class="form_select__field_decor"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popup_form__btn_wrap">
+            <div class="popup_form__btn">submit membership enquiry</div>
+          </div>
+          <div class="popup_form__text">Please Note: A Membership representative will contact you shortly. Memberships are vetted & approved by a membership committee that meets periodically to review applications</div>
+        </form>
+      </div>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>

@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Formery 1</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="header__in">
+        <div class="header__decor borderEl"></div><a class="header__logo" href="#">
+          <picture class="header__logo_in">
+            <source srcset="images/header_logo.png" type="image/png"><img class="header__logo_img" src="images/header_logo.png" alt="">
+          </picture>
+          <picture class="header__logo_in header__logo_in--hidden_mod">
+            <source srcset="images/header_logo_black.png" type="image/png"><img class="header__logo_img" src="images/header_logo_black.png" alt="">
+          </picture></a>
+        <div class="header__side">
+          <div class="header_contact">
+            <ul class="header_contact__list">
+              <li class="header_contact__list_item"><a class="header_contact__phone" href="tel:+6498867472"><span class="header_contact__phone_icon">
+                    <svg class="icon icon_phone_icon icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#phone_icon"></use>
+                    </svg></span><span class="header_contact__phone_number">+64 9 886 7472</span></a></li>
+              <li class="header_contact__list_item"><a class="header_contact__button popupBtn">contact</a></li>
+            </ul>
+          </div>
+          <div class="header_menu"><span class="header_menu__title" data-title="Menu" data-close-title="Close">Menu</span>
+            <div class="header_menu__trigger menuTrigger"><span class="header_menu__trigger_decor"></span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main_menu">
+      <div class="main_menu__scroll_area">
+        <div class="main_menu__in">
+          <div class="main_menu__col">
+            <nav class="menu_nav">
+              <ul class="menu_nav__list">
+                <li class="menu_nav__list_item menu_nav__list_item--has_submenu">
+                  <div class="menu_link">Workspaces</div>
+                  <ul class="menu_nav__sublist">
+                    <li class="menu_nav__subitem"><a class="menu_nav__sublink" href="#">1 Albert Street</a></li>
+                    <li class="menu_nav__subitem"><a class="menu_nav__sublink" href="#">The Formery</a></li>
+                    <li class="menu_nav__subitem"><a class="menu_nav__sublink" href="#">110 Custom Street West</a></li>
+                  </ul>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Membership</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Shop</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Eat & Drink</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Our spaces & private events</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">About</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">Events</a>
+                </li>
+                <li class="menu_nav__list_item"><a class="menu_link" href="#">News</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main_menu__col">
+            <ul class="menu_btn_list">
+              <li class="menu_btn_list__item"><a class="menu_button" href="#">members login</a></li>
+            </ul>
+            <div class="menu_contact">
+              <div class="menu_contact__social">
+                <ul class="social_list social_list--header_mod">
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_facebook icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                      </svg></a></li>
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_instagram icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#instagram"></use>
+                      </svg></a></li>
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_linkedin icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#linkedin"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+              <picture class="menu_contact__logo">
+                <source srcset="images/menu_logo.png" type="image/png"><img class="menu_contact__logo_img" src="images/menu_logo.png" alt="">
+              </picture>
+              <ul class="menu_contact__list">
+                <li class="menu_contact__list_item"><a class="contact_link" href="mailto:info@alberts.nz">info@alberts.nz</a></li>
+                <li class="menu_contact__list_item"><span class="contact_link contact_link--text_mod">1 Albert Street — Auckland, New Zealand</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="base">
+        <section class="hero_section hero_section--center_content_mod hero_section--bg_overlay_mod hero_section--full_screen_mod">
+          <picture class="hero_section__bg">
+            <source media="(min-width: 1024px)" srcset="images/hero/building_hero.jpg" type="image/jpg">
+            <source media="(max-width: 1023px)" srcset="images/hero/building_hero.jpg" type="image/jpg"><img class="hero_section__bg_img" src="images/hero/building_hero.jpg" alt="">
+          </picture>
+          <div class="hero_section__in hero_section__in--alt_height">
+            <div class="hero_section__breadcrumbs">
+              <ul class="hero_section__breadcrumbs_list">
+                <li class="hero_section__breadcrumbs_item"><a class="hero_section__breadcrumbs_link" href="#">home</a>
+                </li>
+                <li class="hero_section__breadcrumbs_item"><a class="hero_section__breadcrumbs_link" href="#">workspaces</a>
+                </li>
+                <li class="hero_section__breadcrumbs_item"><span class="hero_section__breadcrumbs_link hero_section__breadcrumbs_link--weight_mod">The formery</span>
+                </li>
+              </ul>
+            </div>
+            <h1 class="hero_section__title fadeEl">The formery</h1>
+            <div class="hero_section__subtitle fadeEl">Where community inspires smart minds</div>
+          </div>
+        </section>
+        <section class="section aspiration">
+          <div class="section__in"> 
+            <h2 class="aspiration__title">where aspiration meets common sense
+              <div class="line_decor line_decor--v1_mod borderEl"></div>
+              <div class="line_decor line_decor--v2_mod borderEl"></div>
+            </h2>
+            <div class="aspiration__block">
+              <div class="aspiration__row aspiration__row--mod_1">
+                <div class="aspiration__column fadeEl">
+                  <div class="aspiration__text">The Formery provides the same community, engagement and tenant experience as the iconic 1 Albert Street, but on significantly more attractive terms. The same smiling Concierge, meeting areas and improved technology in a curated workspace that introduces a new neighbourhood, midtown.</div>
+                </div>
+                <div class="aspiration__column fadeEl">
+                  <div class="aspiration__text">The essence of 1 Albert Street is being captured at the top of Albert Street. Providing a more attractive price point, the Formery has the Alberts workplace strategy, including Private Suites, Bespoke “made to measure” and Traditional office spaces all with access to a new Alberts Members Club. </div>
+                </div>
+              </div>
+            </div>
+            <div class="aspiration__body">
+              <div class="aspiration__row aspiration__row--mod_2">
+                <div class="aspiration__column fadeEl">
+                  <article class="formery_item formery_item--mod_1">
+                    <picture class="formery_item_logo">
+                      <source srcset="images/formeries/west.png" type="image/png"><img class="formery_item_logo__img" src="images/formeries/west.png" alt="">
+                    </picture>
+                    <h3 class="formery_item__title">Formery West</h3>
+                    <div class="formery_item__text"><p>Formery West, complete with spectacular barbour views, is linked to the nearby Aotea Station and is easily accessed from Albert Street.</p>
+					 <p>The building mainly consists of 14 Private Suites with varying views. Suitable for up to 30 people.</p> 
+					 </div>
+                    <div class="formery_item__wrap">
+                      <div class="formery_item__btn">Book a Tour</div>
+                    </div>
+                    <picture class="formery_item_img">
+                      <source srcset="images/formeries/01.jpg" type="image/jpg"><img class="formery_item_img__in" src="images/formeries/01.jpg" alt="">
+                    </picture>
+                  </article>
+                </div>
+                <div class="aspiration__column fadeEl">
+                  <article class="formery_item formery_item--mod_2">
+                    <picture class="formery_item_logo">
+                      <source srcset="images/formeries/east.png" type="image/png"><img class="formery_item_logo__img" src="images/formeries/east.png" alt="">
+                    </picture>
+                    <h3 class="formery_item__title">Formery east</h3>
+                    <div class="formery_item__text"><p>Formery East is a stone’s throw from Aotea Station, 20 metres to be exact, and a short walk to Sky City.</p>
+					 <p>The building consists of 3,500sqm of Bespoke or Traditional office space, some of which can be continuous floors.</p> </div>
+                    <div class="formery_item__wrap">
+                      <div class="formery_item__btn">Book a Tour</div>
+                    </div>
+                    <picture class="formery_item_img">
+                      <source srcset="images/formeries/02.jpg" type="image/jpg"><img class="formery_item_img__in" src="images/formeries/02.jpg" alt="">
+                    </picture>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+<section class="section text_columns_section">
+  <div class="section__in">
+    <div class="text_columns_section__border_top borderEl"></div>
+    <div class="text_columns_section__list_wrap">
+      <ul class="text_columns_section__list">
+        <li class="text_columns_section__item fadeEl">
+          <div class="text_columns_section__item_text">
+            <h3 class="text_columns_section__item_title">Hybrid Working</h3>
+            <div class="text_columns_section__item_content">
+        <p><strong>Did you know that 68% of global corporate businesses want hybrid-compatible workspaces yet many are concerned about the threat to company culture that the work from home model brings?</strong></p>
+
+        <p>Alberts provides a hybrid solution that ensures businesses have spaces to inspire and enable collaborative working as well as offering isolated areas for quiet focus. Your clients don't lose company culture when the team prefer working in the Club more than their homes.</p>
+
+        <p>Our tried and true method at the Formery will allow corporate culture to thrive, supported not only by an exceptional midtown location that is easy to access but also by the inspirational Club spaces which create the foundations of a community, ideal for networking.</p>
+      </div>
+          </div>
+        </li>
+        <li class="text_columns_section__item fadeEl">
+          <div class="text_columns_section__item_text">
+            <h3 class="text_columns_section__item_title">Midtown Location</h3>
+            <div class="text_columns_section__item_content">
+        <p>Auckland's new midtown neighbourhood is highly connected, making commutes a breeze. Due to open in 2024, Te Wai Horotiu (Aotea) Station will see 54,000 commuters an hour entering and leaving the city at peak times. In addition to cultural facilities, vast skyscrapers housing luxury residences and hotels, other exciting projects due for completion in the coming period will provide new retail, restaurants, cafes and bars which are creating a thriving midtown neighbourhood around Formery tenants.</p>
+      </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+        <section class="section welcome">
+          <div class="section__in">
+            <div class="brochure brochureEl">
+              <div class="brochure__col">
+                <picture class="brochure__img">
+                  <source srcset="images/brochure_1.jpg" type="image/jpg"><img class="brochure__img_in" src="images/brochure_1.jpg" alt="">
+                </picture>
+              </div>
+              <div class="brochure__col">
+                <div class="brochure__decor brochure__decor--v1_mod brochureDecor">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 80">
+                    <rect width="13.867" height="80" fill="#1b2124"></rect>
+                    <rect width="52" height="13.165" transform="translate(0 66.835)" fill="#1b2124"></rect>
+                  </svg>
+                </div>
+                <div class="brochure__decor brochure__decor--v2_mod brochureDecor">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 80">
+                    <rect width="13.867" height="80" fill="#1b2124"></rect>
+                    <rect width="52" height="13.165" transform="translate(0 66.835)" fill="#1b2124"></rect>
+                  </svg>
+                </div>
+                <div class="brochure__content brochureContent">
+                  <picture class="brochure__logo">
+                    <source srcset="images/brochure_logo.png" type="image/png"><img class="brochure__logo_img" src="images/brochure_logo.png" alt="">
+                  </picture>
+                  <div class="brochure__subtitle">property brochure</div>
+                  <div class="brochure__title">1 Albert Street</div>
+                  <div class="brochure__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d laboro eiusmod tempor incididu sed do eiu smod tempor nt ut labore et dolore magna aliqua. </div>
+                  <div class="brochure__btn"><a class="btn_base" href="#">download brochure</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section benefits">
+          <div class="section__in benefits__in">
+            <h2 class="benefits__title">local amenities
+              <div class="line_decor line_decor--v1_mod borderEl"></div>
+              <div class="line_decor line_decor--v2_mod borderEl"></div>
+            </h2>
+            <ul class="benefits__list">
+              <li class="benefits__list_item fadeEl">
+                <div class="benefits__card">
+                  <div class="benefits__card_number">1</div>
+                  <div class="benefits__card_title">te wai horotiu train station</div>
+                  <div class="benefits__card_descr">Opening soon, the new Te Wai Horotiu (Aotea) station will sit on your doorstep making the commute a breeze.</div>
+                </div>
+              </li>
+              <li class="benefits__list_item fadeEl">
+                <div class="benefits__card">
+                  <div class="benefits__card_number">2</div>
+                  <div class="benefits__card_title">commercial bay</div>
+                  <div class="benefits__card_descr">Convenience is a stone's throw away with Commercial Bay boasting the leading stores and brands in NZ.</div>
+                </div>
+              </li>
+              <li class="benefits__list_item fadeEl">
+                <div class="benefits__card">
+                  <div class="benefits__card_number">3</div>
+                  <div class="benefits__card_title">local amenities</div>
+                  <div class="benefits__card_descr">In addition to the hospitality offering from Alberts, numerous bars and eateries surround 1 Albert Street with flavours for everyone to choose from.</div>
+                </div>
+              </li>
+              <li class="benefits__list_item fadeEl">
+                <div class="benefits__card">
+                  <div class="benefits__card_number">4</div>
+                  <div class="benefits__card_title">ferry terminal</div>
+                  <div class="benefits__card_descr">Commuting from the North Shore? Team trip to Waiheke celebrating the quarter? Stroll over to the ferry terminal in minutes.</div>
+                </div>
+              </li>
+              <li class="benefits__list_item fadeEl">
+                <div class="benefits__card">
+                  <div class="benefits__card_number">5</div>
+                  <div class="benefits__card_title">sky city</div>
+                  <div class="benefits__card_descr">Event space, restaurants and casinos are just across the road, perfect for taking the team out to celebrate or to treat the newly signed client.</div>
+                </div>
+              </li>
+              <li class="benefits__list_item fadeEl">
+                <div class="benefits__card">
+                  <div class="benefits__card_number">6</div>
+                  <div class="benefits__card_title">civic theatre and aotea square</div>
+                  <div class="benefits__card_descr">Fantastic proximity to the Civic Theatre and Aotea Square, why not treat your team or your clients to a night of entertainment.</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section interactive_map">
+          <div class="section__in">
+            <div class="interactive_map__columns">
+              <div class="interactive_map__column interactive_map__column--map_mod">
+                <div class="interactive_map__map interactiveMap" data-lat="-36.8476975" data-lng="174.7620892" data-zoom="16"></div>
+              </div>
+              <div class="interactive_map__column interactive_map__column--text_mod">
+                <h2 class="interactive_map__title">Alberts meets auckland
+                  <div class="line_decor line_decor--v1_mod borderEl"></div>
+                  <div class="line_decor line_decor--v2_mod borderEl"></div>
+                </h2>
+                <ul class="interactive_map__locations">
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.844408" data-lng="174.7626988" data-marker-label="1">
+                    <div class="interactive_map__locations_item_number">1</div>
+                    <div class="interactive_map__locations_item_title">1 Albert Street</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8476335" data-lng="174.7632815" data-marker-theme="2" data-marker-label="F">
+                    <div class="interactive_map__locations_item_number">2</div>
+                    <div class="interactive_map__locations_item_title">(F) Formery </div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8440658" data-lng="174.7665319" data-marker-label="3">
+                    <div class="interactive_map__locations_item_number">3</div>
+                    <div class="interactive_map__locations_item_title">Britomart Train Station</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8485615" data-lng="174.7632749" data-marker-label="4">
+                    <div class="interactive_map__locations_item_number">4</div>
+                    <div class="interactive_map__locations_item_title">Te Wai Horotiu Train Station (Aotea)</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.848448" data-lng="174.7619175" data-marker-label="5">
+                    <div class="interactive_map__locations_item_number">5</div>
+                    <div class="interactive_map__locations_item_title">Sky Tower</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8493932" data-lng="174.7624421" data-marker-label="6">
+                    <div class="interactive_map__locations_item_number">6</div>
+                    <div class="interactive_map__locations_item_title">Sky City</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8496357" data-lng="174.7580413" data-marker-label="7">
+                    <div class="interactive_map__locations_item_number">7</div>
+                    <div class="interactive_map__locations_item_title">New Zealand International Convention Centre</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.84416" data-lng="174.7657499" data-marker-label="8">
+                    <div class="interactive_map__locations_item_number">8</div>
+                    <div class="interactive_map__locations_item_title">Commercial Bay</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8465995" data-lng="174.7649835" data-marker-label="9">
+                    <div class="interactive_map__locations_item_number">9</div>
+                    <div class="interactive_map__locations_item_title">1 Mills Lane – Skyscraper Centre Office Tower</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8476975" data-lng="174.7620892" data-marker-label="10">
+                    <div class="interactive_map__locations_item_number">10</div>
+                    <div class="interactive_map__locations_item_title">65 Federal Street – Future Residential Tower </div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8467499" data-lng="174.7602825" data-marker-label="11">
+                    <div class="interactive_map__locations_item_number">11</div>
+                    <div class="interactive_map__locations_item_title">58 Albert Street – Future Office Tower</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8464518" data-lng="174.7620159" data-marker-label="12">
+                    <div class="interactive_map__locations_item_number">12</div>
+                    <div class="interactive_map__locations_item_title">51 Albert Street – Indigo Hotel &amp; Residential Tower</div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8464815" data-lng="174.7625225" data-marker-label="13">
+                    <div class="interactive_map__locations_item_number">13</div>
+                    <div class="interactive_map__locations_item_title">50 Albert Street – Premium Office Tower </div>
+                  </li>
+                  <li class="interactive_map__locations_item interactiveMapLocation" data-lat="-36.8462508" data-lng="174.7646433" data-marker-label="14">
+                    <div class="interactive_map__locations_item_number">14</div>
+                    <div class="interactive_map__locations_item_title">Symphony Centre – Luxury Residence and Retail </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section info_section info_section--mod_2">
+          <div class="section__in">
+            <div class="line_decor line_decor--v1_mod borderEl"></div>
+            <div class="line_decor line_decor--v2_mod borderEl"></div>
+            <div class="info_section__w">
+              <div class="info_section__item fadeEl">
+                <div class="info_section_item info_section_item--mod_2">
+                  <picture class="info_section_item__pic">
+                    <source srcset="images/info_section/info_section_1.png" type="image/png"><img class="info_section_item__pic_in" src="images/info_section/info_section_1.png" alt="">
+                  </picture>
+                  <div class="info_section_item__title">membership</div>
+                  <div class="info_section_item__descr">Consectetur adipiscing elit, sed do eiusmod tempor incididu sed do eiu smod  labor tempor nt ut labore. Lorem ips smod temporum dolor sit amet, et dolore smod tempor magna aliqua. </div>
+                  <div class="info_section_item__btn_w"><a class="info_section_item__btn_in">Learn more</a></div>
+                </div>
+              </div>
+              <div class="info_section__item fadeEl">
+                <div class="info_section_item info_section_item--mod_2">
+                  <picture class="info_section_item__pic">
+                    <source srcset="images/info_section/info_section_2.png" type="image/png"><img class="info_section_item__pic_in" src="images/info_section/info_section_2.png" alt="">
+                  </picture>
+                  <div class="info_section_item__title">community</div>
+                  <div class="info_section_item__descr">Lorem ipsum dolor sit amet, con sectetur adipisc  laboring elit, sed do eiusmod tempor incididu sed do eiu smod tempor nt ut labore et dolore magna aliqua. </div>
+                  <div class="info_section_item__btn_w"><a class="info_section_item__btn_in">Learn more</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section__in">
+            <div class="slider__wrap fadeEl">
+              <div class="main_slider">
+                <div class="main_slider__block">
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_1.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_1.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_2.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_2.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_3.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_3.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_4.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_4.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_5.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_5.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_6.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_6.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_1.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_1.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                  <div class="main_slider__item">
+                    <picture class="main_slider__img">
+                      <source srcset="images/slide_2.jpg" type="image/jpg"><img class="main_slider__img_in" src="images/slide_2.jpg" alt="" data-fancybox="gallary_slider">
+                    </picture>
+                  </div>
+                </div>
+                <div class="main_slider__controls">
+                  <div class="main_slider__arrow prev_mod">
+                    <svg class="icon icon_left icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#left"></use>
+                    </svg>
+                  </div>
+                  <div class="main_slider__arrow next_mod">
+                    <svg class="icon icon_right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#right"></use>
+                    </svg>
+                  </div>
+                  <div class="main_slider__count"><span class="countCurrent"></span><span>&nbsp;/</span><span class="countTotal"></span></div>
+                  <div class="main_slider__fullscreen sliderFullscreen" data-fancybox-trigger="gallary_slider" data-fancybox-index="0" href="javascript:;"></div>
+                </div>
+              </div>
+              <div class="preview_slider">
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_1.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_1.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_2.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_2.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_3.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_3.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_4.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_4.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_5.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_5.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_6.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_6.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_1.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_1.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="preview_slider__item">
+                  <picture class="preview_slider__img">
+                    <source srcset="images/slide_2.jpg" type="image/jpg"><img class="preview_slider__img_in" src="images/slide_2.jpg" alt="">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section contact_us--mod_2">
+          <div class="section__in">
+            <div class="line_decor line_decor--v1_mod borderEl"></div>
+            <div class="contact_us__w contact_us__w--mod_2">
+              <div class="contact_us__info fadeEl">
+                <div class="contact_us__title">contact us</div>
+                <div class="contact_us__text">For leasing enquiries please contact your preferred agent or email us on <a href="mailto:leasing@alberts.nz">leasing@alberts.nz</a> If you have other questions please fill out our contact form.</div>
+                <div class="contact_us__contacts">
+                  <div class="contact_us__contacts_item">1 Albert Street — Auckland, New Zealand</div>
+                  <div class="contact_us__contacts_item"><a class="contact_us__contacts_link" href="mailto: info@alberts.nz">info@alberts.nz</a></div>
+                  <div class="contact_us__contacts_item">PH — <a class="contact_us__contacts_link" href="tel:+6498867472">+64 9 886 7472</a></div>
+                </div>
+              </div>
+              <div class="contact_us__form_w fadeEl">
+                <div class="contact_us__form_title">BOOK A TOUR</div>
+                <form action="#" method="POST">
+                  <div class="contact_form__field_w">
+                    <div class="form_input">
+                      <label class="form_input__label">First Name*</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="text">
+                      </div>
+                    </div>
+                    <div class="form_input">
+                      <label class="form_input__label">Last Name*</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="text">
+                      </div>
+                    </div>
+                    <div class="form_input">
+                      <label class="form_input__label">Ph number*</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="tel">
+                      </div>
+                    </div>
+                    <div class="form_input">
+                      <label class="form_input__label">Email address*</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="email">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact_form__field_w contact_form__field_w--offset-mod contact_form__field_w--decor-mod">
+                  </div>
+                  <div class="contact_form__field_w"> 
+                    <div class="form_checkbox">
+                      <label class="form_checkbox__block">
+                        <input class="form_checkbox__element" type="checkbox" name="4"><span class="form_checkbox__label form_checkbox__label--size_mod">I would like to receive email updates from Alberts</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="contact_form__btn_w">
+                    <input class="contact_form__btn" type="submit" value="Submit leasing enquiry">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+<div class="section bottom_block">
+  <div class="section__in">
+    <div class="bottom_block__logo fadeEl"><img class="bottom_block__logo__img" src="images/bottom_logo.png" alt="logo"></div>
+  </div>
+</div>
+      </div>
+      <footer class="footer">
+        <div class="footer__in"><a class="footer__logo" href="#"><img class="footer__logo__in" src="images/header_logo.png" alt="Logo"></a>
+          <div class="footer__contacts">
+            <div class="footer__contacts__list">
+              <div class="footer__contacts__item">
+                <div class="footer__contacts__link">1 Albert Street — Auckland, New Zealand</div>
+              </div>
+              <div class="footer__contacts__item"><a class="footer__contacts__link" href="mailto:info@alberts.nz">info@alberts.nz</a></div>
+              <div class="footer__contacts__item"><a class="footer__contacts__link" href="tel:6498867472">PH — +64 9 886 7472</a></div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__bottom__logo"><img class="footer__bottom__logo__in" src="images/footer_sublogo.png" alt="Logo"></div>
+            <div class="footer__bottom__socials">
+              <div class="footer__bottom__socials__tag">@wearealberts</div>
+              <div class="footer__bottom__socials__list">
+                <ul class="social_list social_list--footer_mod">
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_facebook icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                      </svg></a></li>
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_instagram icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#instagram"></use>
+                      </svg></a></li>
+                  <li class="social_item"><a class="social_link" href="#">
+                      <svg class="icon icon_linkedin icon--social_mod">
+                        <use xlink:href="images/sprite/sprite.svg#linkedin"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__copy">
+            <div class="footer__copy__item">
+              <div class="footer__copy__link">© ALBERTS 2021</div>
+            </div>
+            <div class="footer__copy__item"><a class="footer__copy__link" href="#">TERMS + CONDITIONS</a></div>
+            <div class="footer__copy__item"><a class="footer__copy__link" href="#">PRIVACY POLICY</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="popup popupMember">
+      <div class="popup_in">
+        <div class="popup_close popupClose">close</div>
+        <h2 class="popup_title">MEMBERSHIP ENQUIRY
+          <div class="line_decor line_decor--v1_mod borderEl"></div>
+          <div class="line_decor line_decor--v2_mod borderEl"></div>
+        </h2>
+        <form class="popup_form">
+          <div class="popup_form__list">
+            <div class="popup_form__list_in">
+              <div class="form_input">
+                <label class="form_input__label">First name*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Last name* </label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Phone number*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="tel">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Email address*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="email">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Age*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <div class="form_input__label">Where do you live?*</div>
+                <div class="form_select">
+                  <div class="form_select__field">
+                    <select class="form_select__element" placeholder="Please select">
+                      <option value="placeholder" disabled="" selected="">Please select</option>
+                      <option value="item">item</option>
+                      <option value="value">value</option>
+                      <option value="hello">hello</option>
+                    </select><span class="form_select__field_decor"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Company name*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Industry*</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Preferred social media</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_input">
+                <label class="form_input__label">Link to your profile</label>
+                <div class="form_input__field">
+                  <input class="form_input__element" type="text">
+                </div>
+              </div>
+              <div class="form_textarea">
+                <label class="form_textarea__label">What else should we know about you?</label>
+                <div class="form_textarea__field">
+                  <textarea class="form_textarea__element"></textarea>
+                </div>
+              </div>
+              <div class="form_input">
+                <div class="form_input__label">What else should we know about you?</div>
+                <div class="form_select">
+                  <div class="form_select__field">
+                    <select class="form_select__element" placeholder="Please select">
+                      <option value="placeholder" disabled="" selected="">Please select</option>
+                      <option value="item">item</option>
+                      <option value="value">value</option>
+                      <option value="hello">hello</option>
+                    </select><span class="form_select__field_decor"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popup_form__btn_wrap">
+            <div class="popup_form__btn">submit membership enquiry</div>
+          </div>
+          <div class="popup_form__text">Please Note: A Membership representative will contact you shortly. Memberships are vetted & approved by a membership committee that meets periodically to review applications</div>
+        </form>
+      </div>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>
